@@ -1,5 +1,10 @@
+import { useFirebase } from "hooks/useFirebase";
 
 export default function Home() {
+
+  const firebaseState = useFirebase()
+  console.log(firebaseState)
+
   return (
     <>
       <div className="relative bg-gray-50 overflow-hidden">
