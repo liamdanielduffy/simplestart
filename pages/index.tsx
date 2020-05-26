@@ -3,7 +3,6 @@ import { useFirebase } from "hooks/useFirebase";
 export default function Home() {
 
   const firebaseState = useFirebase()
-  console.log(firebaseState)
 
   return (
     <>
