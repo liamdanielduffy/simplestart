@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <DefaultSeo
         title="simplestart"
+        description="A simple starting point for web applications"
       />
       <Component {...pageProps} />
     </>
