@@ -81,7 +81,7 @@ export default function Home() {
                     <img
                       className="h-8 w-auto sm:h-10"
                       src="/img/logos/workflow-mark-on-white.svg"
-                      alt=""
+                      alt="Workflow Logo"
                     />
                   </a>
                   <div className="-mr-2 flex items-center md:hidden">
