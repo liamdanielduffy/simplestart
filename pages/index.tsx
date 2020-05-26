@@ -80,7 +80,7 @@ export default function Home() {
                   <a href="#">
                     <img
                       className="h-8 w-auto sm:h-10"
-                      src="/img/logos/workflow-mark-on-white.svg"
+                      src="/workflow-mark-on-white.svg"
                       alt="Workflow Logo"
                     />
                   </a>
@@ -152,8 +152,8 @@ export default function Home() {
                   <div>
                     <img
                       className="h-8 w-auto"
-                      src="/img/logos/workflow-mark-on-white.svg"
-                      alt=""
+                      src="/workflow-mark-on-white.svg"
+                      alt="Workflow Logo"
                     />
                   </div>
                   <div className="-mr-2">
