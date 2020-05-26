@@ -5,7 +5,7 @@ import "firebase/auth";
 
 interface FirebaseState {
     initialized: boolean;
-    user?: any
+    user?: firebase.User
 }
 
 export function useFirebase() {
