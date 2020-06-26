@@ -14,5 +14,7 @@ module.exports = {
     "tailwindcss",
     ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
     "autoprefixer",
+    "postcss-flexbugs-fixes",
+    "postcss-preset-env"
   ],
 };
